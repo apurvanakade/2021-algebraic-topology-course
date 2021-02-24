@@ -1,1 +1,2 @@
-- Spend more time on deformation retractions and homotopy equivalences. These are highly non-trivial topics and need more examples to get used to.
+- Spend more time on deformation retractions and homotopy equivalences. 
+- These are highly non-trivial topics and need more examples to get used to.
