@@ -49,7 +49,7 @@
         \end{cases}
     \end{align*}
     
-        \item Let $n$ be a positive integer. Let $(C_\bullet, d_\bullet)$ be a chain complex over a field $\mathbb{F}$ such that $C_i$ is a finite-dimensional vector space for each $ 0 \le i \le n$ and is 0 for $ i < 0$ or $i > n$. 
+        \item Let $n$ be a non-negative integer. Let $(C_\bullet, d_\bullet)$ be a chain complex over a field $\mathbb{F}$ such that $C_i$ is a finite-dimensional vector space for each $ 0 \le i \le n$ and is 0 for $ i < 0$ or $i > n$. 
     \begin{align*}
         0 \to C_n \overset{d_n}{\longrightarrow} C_{n-1}
         \overset{d_{n-1}}{\longrightarrow} C_{n-2}
@@ -59,12 +59,12 @@
         \overset{d_{1}}{\longrightarrow} C_0
         \to 0
     \end{align*}
-    Using induction over $n$, show that 
+    Using induction, show that 
     \begin{align*}
-        \sum \limits_{i=0}^n \dim H_i (C_\bullet) =        
-        \sum \limits_{i=0}^n \dim C_i.
+        \sum \limits_{i=0}^n (-1)^i\dim H_i (C_\bullet) =        
+        \sum \limits_{i=0}^n (-1)^i\dim C_i.
     \end{align*}
-    Thus, either of the two sides can be used to define the Euler characteristic of a chain complex.
+    Thus, either of the two sides can be used to define the Euler characteristic of $(C_\bullet, d_\bullet)$.
     
 \end{enumerate}
 \end{document}
